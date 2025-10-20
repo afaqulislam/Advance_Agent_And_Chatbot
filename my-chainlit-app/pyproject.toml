@@ -1,0 +1,11 @@
+[project]
+name = "advance-agent"
+version = "0.1.0"
+description = "A Advance Question Answering Stateful chatbot with GitHub authentication built with Python, UV, and Chainlit."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "chainlit>=2.8.2",
+    "openai-agents>=0.3.3",
+    "python-dotenv>=1.1.1",
+]
