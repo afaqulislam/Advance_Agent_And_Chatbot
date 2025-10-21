@@ -3,7 +3,7 @@ chainlit: 2.4.1
 # Interface settings
 ui:
   name: "Advance Agent Using Chainlit"
-  description: "A Advance Question Answering Stateful chatbot with GitHub authentication built with Python, UV, and Chainlit."
+  description: "A Advance Question Answering Stateful chatbot with GitHub and Google authentication built with Python, UV, and Chainlit."
 
 # Message settings
 default_expand_messages: true
@@ -22,4 +22,5 @@ oauth_providers:
     client_secret: ${OAUTH_GITHUB_CLIENT_SECRET}
   google:
     client_id: ${OAUTH_GOOGLE_CLIENT_ID}
+
     client_secret: ${OAUTH_GOOGLE_CLIENT_SECRET}
