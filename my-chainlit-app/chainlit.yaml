@@ -18,9 +18,8 @@ auth:
 # OAuth Configuration
 oauth_providers:
   github:
-    client_id: ${OAUTH_GITHUB_CLIENT_ID}
-    client_secret: ${OAUTH_GITHUB_CLIENT_SECRET}
+    client_id: ${CHAINLIT_AUTH_OAUTH_CLIENT_ID}
+    client_secret: ${CHAINLIT_AUTH_OAUTH_CLIENT_SECRET}
   google:
     client_id: ${OAUTH_GOOGLE_CLIENT_ID}
-
     client_secret: ${OAUTH_GOOGLE_CLIENT_SECRET}
