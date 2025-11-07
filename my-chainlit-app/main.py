@@ -12,6 +12,11 @@ from agents import Runner
 # Load environment variables
 load_dotenv()
 
+# Force HTTPS and trusted proxy headers in production
+os.environ["CHAINLIT_BASE_URL"] = "https://afaqulislam-chainlit.up.railway.app"
+os.environ["CHAINLIT_TRUSTED_HOSTS"] = "*"
+os.environ["CHAINLIT_FORCE_HTTPS"] = "true"
+
 # Get OpenRouter API config
 openrouter_api_key = os.getenv("OPENROUTER_API_KEY")
 openrouter_base_url = os.getenv("OPENROUTER_BASE_URL")
