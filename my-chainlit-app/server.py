@@ -1,16 +1,34 @@
-import chainlit as cl
+# server.py
+import os
 from chainlit.server import app
+from uvicorn import Config, Server
+from starlette.requests import Request
+from starlette.middleware.base import BaseHTTPMiddleware
 
-# Run with proxy trust
+
+# =============================================
+# FORCE HTTPS MIDDLEWARE (SIMPLE & SAFE)
+# =============================================
+class ForceHTTPSMiddleware(BaseHTTPMiddleware):
+    async def dispatch(self, request: Request, call_next):
+        # ONLY CHANGE SCHEME — NO HEADER TOUCHING
+        request.scope["scheme"] = "https"
+        return await call_next(request)
+
+
+# Add middleware
+app.add_middleware(ForceHTTPSMiddleware)
+
+# =============================================
+# RUN SERVER
+# =============================================
 if __name__ == "__main__":
-    from uvicorn import Config, Server
-
     config = Config(
         app=app,
         host="0.0.0.0",
-        port=int(cl.os.environ.get("PORT", 8080)),
-        proxy_headers=True,  # This is key
-        forwarded_allow_ips=["*"],  # Trust all (or specify Railway IPs)
+        port=int(os.environ.get("PORT", 8000)),
+        proxy_headers=True,
+        forwarded_allow_ips=["*"],
     )
     server = Server(config)
     server.run()
