@@ -1,4 +1,4 @@
-# main.py (same as before)
+# main.py
 import os
 import chainlit as cl
 from dotenv import load_dotenv
