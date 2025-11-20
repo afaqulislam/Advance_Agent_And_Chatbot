@@ -1,14 +1,13 @@
-# Welcome to Chainlit! 🚀🤖
+# Welcome to Afaq Ul Islam AI Assistant 🤖🚀
 
-Hi there, Developer! 👋 We're excited to have you on board. Chainlit is a powerful tool designed to help you prototype, debug and share applications built on top of LLMs.
+Hi! 👋
+This is a custom-built AI assistant created by **Afaq Ul Islam** — focused on reliable performance, clean UI, and intelligent responses.
 
 ## Useful Links 🔗
 
-- **Documentation:** Get started with our comprehensive [Chainlit Documentation](https://docs.chainlit.io) 📚
-- **Discord Community:** Join our friendly [Chainlit Discord](https://discord.gg/k73SQ3FyUh) to ask questions, share your projects, and connect with other developers! 💬
+- **Portfolio:** [https://aui-portfolio.vercel.app](https://aui-portfolio.vercel.app)
+- **GitHub:** [https://github.com/afaqulislam](https://github.com/afaqulislam)
+- **LinkedIn:** [https://www.linkedin.com/in/afaqulislam](https://www.linkedin.com/in/afaqulislam)
+- **Twitter (X):** [https://x.com/afaqulislam708](https://x.com/afaqulislam708)
 
-We can't wait to see what you create with Chainlit! Happy coding! 💻😊
-
-## Welcome screen
-
-To modify the welcome screen, edit the `chainlit.md` file at the root of your project. If you do not want a welcome screen, just leave this file empty.
+Feel free to explore and interact with the assistant. Happy coding! 💻✨

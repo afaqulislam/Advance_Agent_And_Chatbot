@@ -230,7 +230,7 @@ my-chainlit-app/
 ## 🧑‍💻 Author
 
 **👨‍💻 Afaq Ul Islam**
-Full Stack Developer | AI & Web3.0 Enthusiast
+Frontend Developer | AI & Web3.0 Enthusiast
 🌐 [Portfolio Website](https://aui-portfolio.vercel.app) • 💼 [LinkedIn](https://www.linkedin.com/in/afaqulislam) • 🐙 [GitHub](https://github.com/afaqulislam)
 
 > Passionate about building intelligent, user-centric, and production-ready software.

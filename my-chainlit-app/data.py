@@ -1,11 +1,11 @@
 data = {
     "name": "Afaq Ul Islam",
-    "title": "Full Stack Developer | Design-to-Code Expert",
-    "headline": "Full Stack Developer | AI, Web3.0 & Metaverse Student in GIAIC | Agentic AI Learner – Building high-performance websites & exploring the future of tech. Try a free demo today!",
+    "title": "Frontend Developer | Design-to-Code Expert",
+    "headline": "Frontend Developer | AI, Web3.0 & Metaverse Student in GIAIC | Agentic AI Learner – Building high-performance websites & exploring the future of tech. Try a free demo today!",
     "location": "Pakistan",
     "about": {
         "description": (
-            "I’m a passionate Full Stack Developer dedicated to building elegant, "
+            "I’m a passionate Frontend Developer dedicated to building elegant, "
             "high-performance web applications that combine modern UI design with powerful backend logic. "
             "My focus is on transforming creative ideas and design prototypes into efficient, responsive, "
             "and scalable web solutions."
@@ -106,7 +106,7 @@ data = {
     "experience": [
         {
             "organization": "Freelance Projects",
-            "role": "Full Stack Developer | UI Implementation Specialist",
+            "role": "Frontend Developer | UI Implementation Specialist",
             "years": "2023 - Present",
             "description": (
                 "Delivering professional-grade web applications with a focus on design accuracy, "
